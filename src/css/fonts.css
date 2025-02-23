@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Golos-text';
+    src: url('/assets/fonts/golos-text/GolosText-Bold.woff') format('woff');
+    font-weight: 700;
+  }
+  
+@font-face {
+  font-family: 'Golos-text';
+  src: url('/assets/fonts/golos-text/GolosText-Medium.woff') format('woff');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Golos-text';
+  src: url('/assets/fonts/golos-text/GolosText-Regular.woff') format('woff');
+  font-weight: 400;
+}
