@@ -714,6 +714,7 @@ body {
   height: 100%;
   position: relative;
   padding: 33px 32px 68px 32px;
+  max-width: 1440px;
 }
 
 .modal__close {
