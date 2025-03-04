@@ -216,6 +216,8 @@ body {
 
 .marketing-agency__title {
   max-width: clamp(203px, 55vw, 511px);
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .marketing-agency__title,
@@ -501,6 +503,23 @@ body {
 .how-we-works-list-wrapper {
   overflow: auto;
 }
+
+.how-we-works-list-wrapper::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.30);
+  border-radius: 8px;
+}
+
+.how-we-works-list-wrapper::-webkit-scrollbar {
+  width: 7px;
+  height: 8px;
+}
+
+.how-we-works-list-wrapper::-webkit-scrollbar-track {
+  background-color: #3D4050;
+  border-radius: 8px;
+}
+
+
 
 .how-we-works-list {
   display: flex;
