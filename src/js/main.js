@@ -52,7 +52,9 @@ function modal() {
     `
 
     const modalContent = modalHTML.querySelector('.modal__content');
+
     modalContent.append(feedbackForm());
+
 
     modalHTML.querySelector('.modal__close').addEventListener('click', () => modalHTML.remove())
 
@@ -65,5 +67,7 @@ function modal() {
 }
 
 
+const headerButton = document.querySelector('.header__button');
 
-document.querySelector('.marketing-agency__button').addEventListener('click', () => document.body.append(modal()))
+document.querySelector('.marketing-agency__button').addEventListener('click', () => document.body.append(modal()));
+headerButton.addEventListener('click', () => document.body.append(modal()));
