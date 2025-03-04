@@ -516,9 +516,11 @@ body {
 
 .how-we-works-list-wrapper {
   overflow: auto;
+  margin-left: -150px;
+  margin-right: -150px;
 }
 
-@media (max-width: 1450px) {
+@media (max-width: 1530px) {
   .how-we-works-list-wrapper {
     margin-left: -120px;
     margin-right: -120px;
